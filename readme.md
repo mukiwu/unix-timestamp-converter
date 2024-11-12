@@ -12,7 +12,7 @@
 
 ## 安裝
 
-1. 前往 [Chrome 網上應用店](https://chromewebstore.google.com/detail/unix-timestamp-converter/biolgldjminicieeikbpppncabcjbfao)。
+1. 前往 [Chrome 線上應用程式商店](https://chromewebstore.google.com/detail/unix-timestamp-converter/biolgldjminicieeikbpppncabcjbfao)。
 2. 點擊「加到 Chrome」按鈕。
 3. 按照提示完成安裝。
 
