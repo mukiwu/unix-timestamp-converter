@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Unix Timestamp Converter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="libs/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="timestamp--container">
+      <input type="text" id="timestampInput" class="timestamp--input" placeholder="Enter Unix timestamp">
+      <button id="convertButton" class="timestamp--button">Convert</button>
+    </div>
+    <div class="middle--container">
+      <div class="middle-icon">
+        <img src="images/down-2-svgrepo-com.svg" />
+      </div>
+      <div class="middle-text">
+        <span>Current:</span>
+        <select id="timezone-select" style="width: 200px;">
+          <option value=""></option>
+        </select>
+        <span id="timezone"></span>
+      </div>
+    </div>
+    <div class="result--container">
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="libs/jquery-3.6.0.min.js"></script>
+  <script src="libs/select2.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+
+</html>
