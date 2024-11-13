@@ -1,36 +1,38 @@
 # Unix Timestamp Converter
 
-## 簡介
+[繁體中文版](https://github.com/mukiwu/unix-timestamp-converter/blob/main/readmd-zh.md)
 
-**Unix Timestamp Converter** 是一款 Chrome 擴充功能，旨在將 Unix 時間戳轉換為人類可讀的日期和時間格式。這款工具特別適合開發者、數據分析師以及任何需要處理時間戳的用戶，能夠快速而準確地進行時間轉換，提升工作效率。
+## Introduction
 
-## 特點
+**Unix Timestamp Converter** is a Chrome extension designed to convert Unix timestamps into human-readable date and time formats. This tool is especially useful for developers, data analysts, and anyone needing to work with timestamps, enabling quick and accurate time conversions to improve efficiency.
 
-- **簡單易用**：直觀的用戶介面，讓您輕鬆輸入和轉換 Unix 時間戳。
-- **即時轉換**：快速獲取可讀的日期和時間，無需繁瑣的計算。
-- **多時區支持**：根據需要選擇不同的時區，確保轉換結果符合您的需求。
+## Features
 
-## 安裝
+- **User-Friendly**: An intuitive interface allows for easy input and conversion of Unix timestamps.
+- **Instant Conversion**: Quickly obtain readable dates and times without complex calculations.
+- **Multi-Timezone Support**: Select different time zones as needed to ensure the conversion aligns with your requirements.
 
-1. 前往 [Chrome 線上應用程式商店](https://chromewebstore.google.com/detail/unix-timestamp-converter/biolgldjminicieeikbpppncabcjbfao)。
-2. 點擊「加到 Chrome」按鈕。
-3. 按照提示完成安裝。
+## Installation
 
-安裝完成後，您可以在瀏覽器工具列中找到 **Unix Timestamp Converter**，隨時轉換時間戳。
+1. Go to the [Chrome Web Store](https://chromewebstore.google.com/detail/unix-timestamp-converter/biolgldjminicieeikbpppncabcjbfao).
+2. Click the "Add to Chrome" button.
+3. Follow the prompts to complete the installation.
 
-## 使用方法
+Once installed, you can find **Unix Timestamp Converter** in the browser toolbar, ready to convert timestamps at any time.
 
-1. 點擊工具列中的擴充功能圖標。
-2. 輸入您想要轉換的 Unix 時間戳，即可查看對應的可讀日期和時間。
+## Usage
 
-## 貢獻
+1. Click the extension icon in the toolbar.
+2. Enter the Unix timestamp you want to convert to see the corresponding readable date and time.
 
-歡迎任何形式的貢獻！如果您有建議或發現了錯誤，請提交問題或拉取請求。
+## Contributions
 
-## 授權
+All contributions are welcome! If you have suggestions or find any issues, please submit an issue or pull request.
 
-本項目採用 [MIT 授權](LICENSE)。
+## License
 
-## 聯繫方式
+This project is licensed under the [MIT License](LICENSE).
 
-如有任何問題或建議，請隨時聯繫作者 [MUKI](https://muki.tw)。
+## Contact
+
+For any questions or suggestions, feel free to contact the author, [MUKI](https://muki.tw)
