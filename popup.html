@@ -1,38 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
   <title>Unix Timestamp Converter</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link href="libs/select2.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 
 <body>
   <div class="container">
-    <div class="timestamp--container">
-      <input type="text" id="timestampInput" class="timestamp--input" placeholder="Enter Unix timestamp">
-      <button id="convertButton" class="timestamp--button">Convert</button>
-    </div>
-    <div class="middle--container">
-      <div class="middle-icon">
-        <img src="images/down-2-svgrepo-com.svg" />
+    <header>
+      <h1>Unix Timestamp</h1>
+      <button id="btn-now" class="action-btn" title="Set to Now">
+        Current Time
+      </button>
+    </header>
+
+    <div class="card">
+      <div class="input-group">
+        <input type="text" id="timestampInput" class="main-input" placeholder="Unix Timestamp" autocomplete="off">
+        <div class="input-actions">
+          <!-- Actions can go here if needed -->
+        </div>
       </div>
-      <div class="middle-text">
-        <span>Current:</span>
-        <select id="timezone-select" style="width: 200px;">
-          <option value=""></option>
-        </select>
-        <span id="timezone"></span>
+
+      <div class="separator">
+        <div class="icon-wrapper">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M7 11l5 5 5-5M7 11l5 5 5-5" />
+          </svg>
+        </div>
       </div>
-    </div>
-    <div class="result--container">
-      <div id="result"></div>
+
+      <div class="timezone-group">
+        <label for="timezoneInput">Target Timezone</label>
+        <div class="custom-select-wrapper">
+          <div class="select-container">
+            <input type="text" id="timezoneInput" class="select-input" placeholder="Select Timezone..."
+              autocomplete="off">
+            <div class="select-arrow">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </div>
+          </div>
+          <div id="timezoneDropdown" class="dropdown-list hidden"></div>
+        </div>
+      </div>
+
+      <div class="result-box">
+        <div class="result-content" id="result">Waiting for input...</div>
+        <button id="btn-copy" class="copy-btn" title="Copy result">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
 
-  <script src="libs/jquery-3.6.0.min.js"></script>
-  <script src="libs/select2.min.js"></script>
   <script src="popup.js"></script>
 </body>
 
